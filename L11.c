@@ -27,7 +27,7 @@ int main()
         .ingredients = {my_ingredients.name, my_ingredients.quantity, my_ingredients.measure_type}
     };
 
-    printf("%s", my_recipe.ingredients);
+    printf("Name: %s", my_recipe.name);
 
     return 0;
 }
